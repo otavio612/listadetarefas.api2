@@ -1,0 +1,19 @@
+package br.com.curso.listadetarefas_api.tarefa;
+
+//fazendo os impoes da biblioteca
+import jakarta.persistence.*;
+import lombok.Data;
+
+
+@Data
+@Entity
+@Table(name = "tb_tarefas")
+
+public class Tarefa {
+@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String descricao;
+    private boolean concluida;
+
+}

@@ -1,4 +1,4 @@
-package br.com.curso.listadetarefas_api.tarefa;
+package br.com.curso.listadetarefas.api.tarefa;
 
 //fazendo os impoes da biblioteca
 import jakarta.persistence.*;
